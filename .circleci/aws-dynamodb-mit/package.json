@@ -1,0 +1,70 @@
+{
+  "name": "aws-dynamodb",
+  "version": "2.0.0",
+  "description": "Running an API Gateway for a DynamoDB Database with CRUD for an MIT Assignment",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "build+test": "npm run build",
+    "build+test+package": "npm run build+test && npm pack --dry-run"
+  },
+  "author": {
+    "name": "Fernando O. - fochoao<at>pm.me",
+    "url": "https://www.f-ochoa.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.6",
+    "typescript": "~3.9.3"
+  },
+  "_from": "cdk@^1.42.0",
+  "_id": "cdk@1.42.0",
+  "_inBundle": false,
+  "_integrity": "sha512-STv2BkaLj+8y5Pf8FLZkvNsJEiyvrTggBRwGLBQjSBO6ALaq0ImxRp3dhx8ZwEVlFU4xO96Z0+ywcLbuiWoC8w==",
+  "_location": "./",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cdk@^1.42.0",
+    "name": "cdk",
+    "escapedName": "cdk",
+    "rawSpec": "^1.42.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.42.0"
+  },
+  "_resolved": "https://registry.npmjs.org/cdk/-/cdk-1.42.0.tgz",
+  "_shasum": "bc2fc49eb0684fd3e8b818697090cc1b05e476be",
+  "_spec": "cdk@^1.42.0",
+  "_where": "./",
+  "bin": {
+    "cdk": "bin/cdk"
+  },
+  "bugs": {
+    "url": "https://github.com/aws/aws-cdk/issues"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "*",
+    "@aws-cdk/aws-dynamodb": "^1.42.0",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/core": "*",
+    "aws-cdk": "^1.42.0",
+    "aws-sdk": "*",
+    "cdk": "^1.42.0"
+  },
+  "deprecated": true,
+  "engines": {
+    "node": ">= 8.10.0"
+  },
+  "homepage": "https://github.com/aws/aws-cdk",
+  "keywords": [
+    "aws",
+    "cdk",
+    "toolkit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws/aws-cdk.git"
+  }
+}

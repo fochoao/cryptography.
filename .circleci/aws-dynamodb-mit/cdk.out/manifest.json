@@ -1,0 +1,950 @@
+{
+  "version": "4.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "ApiLambdaCrudDynamoDBExample": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "ApiLambdaCrudDynamoDBExample.template.json"
+      },
+      "metadata": {
+        "/ApiLambdaCrudDynamoDBExample": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
+              "id": "e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
+              "packaging": "zip",
+              "sourceHash": "e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
+              "s3BucketParameter": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144",
+              "s3KeyParameter": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252",
+              "artifactHashParameter": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eArtifactHash08D59C74"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:306:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:129:29)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:57:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack.js:348:33)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:61:31)",
+              "new Asset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:44)",
+              "AssetCode.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:136:26)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:28:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/items": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": "Books",
+            "trace": [
+              "ConstructNode.addMetadata (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:306:62)",
+              "new Table (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:324:23)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:16:29)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/items/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "items07D08F4B",
+            "trace": [
+              "new Table (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:305:22)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:16:29)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionServiceRoleCFD54796",
+            "trace": [
+              "new Role (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:28:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionServiceRoleDefaultPolicy6B743AA8",
+            "trace": [
+              "new Policy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:30:26)",
+              "Role.addToPrincipalPolicy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:164:34)",
+              "Function.addToPrincipal (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:65)",
+              "Table.combinedGrant (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:245:35)",
+              "Table.grantReadWriteData (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:155:21)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:79:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionE3257B22",
+            "trace": [
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:28:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144",
+            "trace": [
+              "new FileAssetParameters (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:11:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:119:22)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:57:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack.js:348:33)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:61:31)",
+              "new Asset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:44)",
+              "AssetCode.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:136:26)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:28:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252",
+            "trace": [
+              "new FileAssetParameters (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:15:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:119:22)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:57:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack.js:348:33)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:61:31)",
+              "new Asset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:44)",
+              "AssetCode.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:136:26)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:28:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eArtifactHash08D59C74",
+            "trace": [
+              "new FileAssetParameters (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:19:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:119:22)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:57:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack.js:348:33)",
+              "LegacyStackSynthesizer.addFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:61:31)",
+              "new Asset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:44)",
+              "AssetCode.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:136:26)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:28:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionServiceRoleCC084440",
+            "trace": [
+              "new Role (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:38:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionServiceRoleDefaultPolicyF069C759",
+            "trace": [
+              "new Policy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:30:26)",
+              "Role.addToPrincipalPolicy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:164:34)",
+              "Function.addToPrincipal (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:65)",
+              "Table.combinedGrant (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:245:35)",
+              "Table.grantReadWriteData (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:155:21)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:78:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunction0B7A913E",
+            "trace": [
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:38:30)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionServiceRole1BBF2178",
+            "trace": [
+              "new Role (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:48:27)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionServiceRoleDefaultPolicy8FAF1611",
+            "trace": [
+              "new Policy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:30:26)",
+              "Role.addToPrincipalPolicy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:164:34)",
+              "Function.addToPrincipal (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:65)",
+              "Table.combinedGrant (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:245:35)",
+              "Table.grantReadWriteData (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:155:21)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:80:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunction8D47E48A",
+            "trace": [
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:48:27)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionServiceRole40035396",
+            "trace": [
+              "new Role (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:58:27)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionServiceRoleDefaultPolicy6A793729",
+            "trace": [
+              "new Policy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:30:26)",
+              "Role.addToPrincipalPolicy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:164:34)",
+              "Function.addToPrincipal (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:65)",
+              "Table.combinedGrant (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:245:35)",
+              "Table.grantReadWriteData (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:155:21)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:81:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunction59415205",
+            "trace": [
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:58:27)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionServiceRole5C201FCC",
+            "trace": [
+              "new Role (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:68:27)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionServiceRoleDefaultPolicyDCE46F14",
+            "trace": [
+              "new Policy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:30:26)",
+              "Role.addToPrincipalPolicy (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:164:34)",
+              "Function.addToPrincipal (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:65)",
+              "Table.combinedGrant (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:245:35)",
+              "Table.grantReadWriteData (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:155:21)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:82:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunction2918B1B0",
+            "trace": [
+              "new Function (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:68:27)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApi28111E1C",
+            "trace": [
+              "new RestApi (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:189:26)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:83:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiCloudWatchRoleB5C7B431",
+            "trace": [
+              "new Role (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "RestApi.configureCloudWatchRole (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:101:22)",
+              "new RestApi (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:205:18)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:83:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiAccount591BF3E1",
+            "trace": [
+              "RestApi.configureCloudWatchRole (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:105:26)",
+              "new RestApi (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:205:18)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:83:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiDeploymentFEC31BD0d925479073834563418d3d3654159a8d",
+            "trace": [
+              "new Deployment (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.js:40:25)",
+              "RestApi.configureDeployment (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:113:38)",
+              "new RestApi (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:207:14)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:83:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiDeploymentStageprodE77B897D",
+            "trace": [
+              "new Stage (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.js:47:26)",
+              "RestApi.configureDeployment (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:121:36)",
+              "new RestApi (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:207:14)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:83:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiEndpoint8392E274",
+            "trace": [
+              "RestApi.configureDeployment (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:125:13)",
+              "new RestApi (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:207:14)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:83:21)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitems9015DBED",
+            "trace": [
+              "new Resource (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:170:26)",
+              "RootResource.addResource (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:14:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:86:32)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGETApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitems2A648972",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:88:15)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGETApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitemsF4364FB2",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:88:15)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGET59B0F78A",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:88:15)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.POST..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132POSTitems7DA2B753",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:90:15)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.POST..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132POSTitemsAE25CBB6",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:90:15)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTDD3E83D0",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:90:15)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsOPTIONSB46B4D53",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "addCorsOptions (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:104:17)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:91:9)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidA29927C2",
+            "trace": [
+              "new Resource (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:170:26)",
+              "Resource.addResource (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:14:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:92:34)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGETApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitemsid6D54AF22",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:94:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGETApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitemsidCA08693A",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:94:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGET38A333A8",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:94:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.PATCH..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCHApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132PATCHitemsidEE9531C0",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:96:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.PATCH..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCHApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132PATCHitemsid513A5711",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:96:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCH0548CB6A",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:96:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.DELETE..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETEApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132DELETEitemsid056EB521",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:98:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.DELETE..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETEApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132DELETEitemsid4C18D4E2",
+            "trace": [
+              "Function.addPermission (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:98:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETE21550005",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:98:20)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidOPTIONS62BD91D0",
+            "trace": [
+              "new Method (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "Resource.addMethod (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "addCorsOptions (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:104:17)",
+              "new ApiLambdaCrudDynamoDBStack (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:99:9)",
+              "Object.<anonymous> (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\index.js:132:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1185:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)",
+              "Module.load (internal/modules/cjs/loader.js:1034:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:923:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/aws-apigateway": "1.42.0",
+      "@aws-cdk/aws-iam": "1.42.0",
+      "@aws-cdk/core": "1.42.0",
+      "@aws-cdk/cx-api": "1.42.0",
+      "@aws-cdk/cloud-assembly-schema": "1.42.0",
+      "@aws-cdk/cdk-assets-schema": "1.42.0",
+      "@aws-cdk/region-info": "1.42.0",
+      "@aws-cdk/aws-s3-assets": "1.42.0",
+      "@aws-cdk/assets": "1.42.0",
+      "@aws-cdk/aws-s3": "1.42.0",
+      "@aws-cdk/aws-events": "1.42.0",
+      "@aws-cdk/aws-kms": "1.42.0",
+      "@aws-cdk/aws-dynamodb": "1.42.0",
+      "@aws-cdk/aws-applicationautoscaling": "1.42.0",
+      "@aws-cdk/aws-autoscaling-common": "1.42.0",
+      "@aws-cdk/aws-cloudwatch": "1.42.0",
+      "@aws-cdk/aws-lambda": "1.42.0",
+      "@aws-cdk/aws-ec2": "1.42.0",
+      "@aws-cdk/aws-ssm": "1.42.0",
+      "@aws-cdk/aws-logs": "1.42.0",
+      "@aws-cdk/aws-sqs": "1.42.0",
+      "@aws-cdk/custom-resources": "1.42.0",
+      "jsii-runtime": "node.js/v14.0.0"
+    }
+  }
+}
