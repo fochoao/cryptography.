@@ -1,0 +1,8 @@
+f = (x1/2)+ceil(z) = y2
+f = (x1/2)-ceil(z) = y2
+f = (y1/2)+ceil(z) = x2
+f = (y1/2)-ceil(z) = x2
+f = ceil(log(3)3+log+(2)*2+log(y1)*1) - z = x2
+f = ceil(y2/2) - z = x2
+f = ceil(x1/2) + z = x2
+f = ceil(x1/2) + z = x2
